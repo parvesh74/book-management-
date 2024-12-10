@@ -1,0 +1,35 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation Links */
+nav {
+  margin: 20px;
+}
+
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+/* Button Styles */
+button {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button[type="button"] {
+  background-color: red;
+  color: white;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+}
